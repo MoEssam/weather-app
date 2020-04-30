@@ -3,14 +3,19 @@
 <html>
 
 <head>
-    <title>About page</title>
+    <title>About</title>
+    <link rel="icon" href="/img/weather.png">
+
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
-    {{>header}}
-    <img src="/img/me.jpg">
-    <h1>{{name}}</h1>
+    <div class="main-content">
+        {{>header}}
+        <img class="portarit" src="/img/me.jpg">
+        <h1>{{name}}</h1>
+    </div>
+
     {{>footer}}
 </body>
 
